@@ -1,122 +1,123 @@
-# The "Andrew & Megan" Japan Packing List
+# Japan 2026 — Packing List
+
 **Trip Dates:** March 20 – 29, 2026
 
 ---
 
-## 🌤️ Weather Forecast Overview
+## Weather Forecast Overview
 
-**General Vibe:** "San-kan-shi-on" (Three cold days, four warm days). Expect cool, crisp mornings, pleasant afternoons, and chilly evenings. Rain is likely on 2-3 days.
+**General vibe:** "San-kan-shi-on" (three cold days, four warm days). Expect cool mornings, pleasant afternoons, chilly evenings. Rain likely on 2–3 days.
 
 - **Tokyo / Kyoto / Osaka / Hiroshima:**
   - **Highs:** 13°C – 16°C (55°F – 61°F)
   - **Lows:** 5°C – 8°C (41°F – 46°F)
   - **Rain:** Moderate chance.
 
-- **Fujikawaguchiko (The Cold Trap):**
+- **Fujikawaguchiko:**
   - **Highs:** ~9°C (48°F)
   - **Lows:** ~0°C (32°F)
-  - **Note:** It will be significantly colder here. You need a real coat or good layers for this leg.
+  - **Note:** Significantly colder. Real coat or good layers needed.
 
 ---
 
-## 🎒 The Strategy: "Modular Layers"
+## The Strategy: Modular Layers
 
-You are moving a lot (Tokyo -> Fuji -> Kyoto -> Himeji -> Hiroshima -> Osaka).
-**Rule #1:** You must be able to carry everything you pack up a flight of stairs.
-**Rule #2:** Laundry is planned for the Fuji leg (March 24-25). Pack for ~5-6 days, not 10.
+You're moving a lot (Tokyo → Fuji → Kyoto → Himeji → Hiroshima → Osaka).
+
+- **Rule #1:** You must be able to carry everything you pack up a flight of stairs.
+- **Rule #2:** Laundry is planned for the Fuji leg (March 24–25). Pack for ~5–6 days, not 10.
 
 ---
 
-## 👨 Andrew's Bag
+## Andrew's Bag
 
 ### Tops
-- **Base Layers:** 3-4 T-shirts (Cotton or Merino wool).
-- **Mid-Layers:** 2 Long-sleeve shirts / Button-downs.
-- **Warmth:** 1-2 Sweaters or Hoodies (Wear one on the plane).
-- **Heattech:** 1-2 sets of Uniqlo Heattech (Top & Bottom) – **Critical for Fuji.**
-- **Underwear/Socks:** 5-6 pairs (Wash in Fuji).
+- **Base layers:** 3–4 T-shirts (cotton or merino).
+- **Mid-layers:** 2 long-sleeve shirts / button-downs.
+- **Warmth:** 1–2 sweaters or hoodies (wear one on the plane).
+- **Heattech:** 1–2 sets Uniqlo Heattech (top & bottom) — critical for Fuji.
+- **Underwear/socks:** 5–6 pairs (wash in Fuji).
 
 ### Bottoms
-- **Pants:** 2 pairs of comfortable pants (Jeans / Chinos / Tech pants).
-- **Smart Casual:** 1 pair of nicer trousers (for Hassun dinner).
-- **Sleep:** 1 pair of lounge pants / shorts.
+- **Pants:** 2 pairs comfortable pants (jeans / chinos / tech pants).
+- **Smart casual:** 1 pair nicer trousers (for Hassun dinner).
+- **Sleep:** 1 pair lounge pants / shorts.
 
 ### Shoes
 - **Daily:** 1 pair comfortable walking sneakers.
 - **Nice:** 1 pair clean boots or leather sneakers (for Hassun).
 
 ### Outerwear
-- **Primary:** Light Down Jacket or Wool Coat.
+- **Primary:** Light down jacket or wool coat.
 - **Rain:** Rain shell or windbreaker.
 
 ---
 
-## 👩 Megan's Bag
+## Megan's Bag
 
 ### Tops
-- **Base Layers:** 3-4 T-shirts / Tops.
-- **Mid-Layers:** 2 Long-sleeve blouses or layers.
-- **Warmth:** 1-2 Cardigans or Sweaters (Wear one on the plane).
-- **Heattech:** 1-2 sets of Uniqlo Heattech (Top & Leggings) – **Critical for Fuji.**
-- **Underwear/Socks:** 5-6 pairs (Wash in Fuji).
+- **Base layers:** 3–4 T-shirts / tops.
+- **Mid-layers:** 2 long-sleeve blouses or layers.
+- **Warmth:** 1–2 cardigans or sweaters (wear one on the plane).
+- **Heattech:** 1–2 sets Uniqlo Heattech (top & leggings) — critical for Fuji.
+- **Underwear/socks:** 5–6 pairs (wash in Fuji).
 
 ### Bottoms
-- **Pants:** 2 pairs of comfortable walking pants/jeans.
-- **Smart Casual:** 1 Skirt or Dress (for Hassun dinner).
-  - *Note:* If bringing a dress, ensure you have tights/leggings for warmth.
-- **Sleep:** 1 pair of pajamas / lounge wear.
+- **Pants:** 2 pairs comfortable walking pants/jeans.
+- **Smart casual:** 1 skirt or dress (for Hassun dinner — bring tights for warmth).
+- **Sleep:** 1 pair pajamas / lounge wear.
 
 ### Shoes
-- **Daily:** 1 pair comfortable walking sneakers/boots (Broken in!).
-- **Nice:** 1 pair nice boots or flats (for Hassun).
-  - *Note:* Avoid high heels; you will walk *a lot* and navigate cobblestones/gravel.
+- **Daily:** 1 pair comfortable walking sneakers/boots (broken in!).
+- **Nice:** 1 pair nice boots or flats (for Hassun). Avoid heels — lots of walking and cobblestones.
 
 ### Outerwear
-- **Primary:** Warm Coat (Wool or Down).
-- **Rain:** Stylish rain jacket or trench.
-- **Accessories:** Scarf (versatile for changing temps).
+- **Primary:** Warm coat (wool or down).
+- **Rain:** Rain jacket or trench.
+- **Accessories:** Scarf.
 
 ---
 
-## 🧴 Shared Toiletries & Essentials
+## Shared Toiletries & Essentials
 
-*Pack these in one person's checked bag or split if doing carry-on only (liquids <100ml).*
+*Pack in one checked bag or split if carry-on only (liquids under 100 ml).*
 
-### The "Must-Haves"
-- [ ] **Toothpaste:** (Japanese toothpaste is different; bring your preferred brand).
-- [ ] **Face Wash:** (Gentle cleanser for morning/night).
-- [ ] **Deodorant:** (Hard to find antiperspirant in Japan; bring 2 sticks).
-- [ ] **Sunscreen:** (Even in spring, you'll be outside all day).
-- [ ] **Moisturizer/Lotion:** (Air can be dry).
-- [ ] **Hair Product:** (Styling paste/spray if needed).
-- [ ] **Makeup:** (Megan's daily essentials).
-- [ ] **Razor/Shaving Cream.**
+### Must-haves
+- Toothpaste (bring your preferred brand).
+- Face wash.
+- Deodorant (bring 2 sticks — hard to find in Japan).
+- Sunscreen.
+- Moisturizer/lotion.
+- Hair product (if needed).
+- Makeup (essentials).
+- Razor / shaving cream.
 
-### The "Japan Survival Kit"
-- [ ] **Hand Sanitizer:** Public restrooms often lack soap.
-- [ ] **Handkerchief / Small Towel:** Public restrooms often lack paper towels.
-- [ ] **Plastic Bag:** For your own trash (bins are rare).
+### Japan kit
+- Hand sanitizer (restrooms often lack soap).
+- Handkerchief / small towel (restrooms often lack paper towels).
+- Plastic bag for your own trash (bins are rare).
 
-### Medicine Cabinet
-- [ ] **Ibuprofen / Tylenol:** For walking aches.
-- [ ] **Pepto Bismol / Tums:** For food adventures.
-- [ ] **Band-Aids / Moleskin:** For blisters (Crucial).
-- [ ] **Prescriptions:** Bring in original bottles.
-
----
-
-## 🔌 Shared Tech & Docs
-
-- [ ] **Power Bank:** 10,000mAh+ (Crucial for maps).
-- [ ] **Adapters:** 2-prong Type A (Non-grounded).
-- [ ] **Cables:** USB-C & Lightning (Long cables recommended).
-- [ ] **Passports:** (Keep on person).
-- [ ] **Suica/Pasmo:** On phones.
-- [ ] **Coin Purse:** For cash/coins.
+### Medicine
+- Ibuprofen / Tylenol.
+- Pepto / Tums.
+- Band-Aids / Moleskin (blisters).
+- Prescriptions in original bottles.
 
 ---
 
-## ❌ Leave at Home
-- **Heavy Winter Parka:** Layers are better.
-- **Formal Wear:** Suit/Tie not needed.
-- **Hair Dryer:** Hotels have good ones.
+## Shared Tech & Docs
+
+- Power bank (10,000 mAh+).
+- 2-prong adapters (Type A, non-grounded).
+- USB-C & Lightning cables (long cables helpful).
+- Passports (keep on person).
+- Suica/Pasmo on phones.
+- Coin purse for cash.
+
+---
+
+## Leave at Home
+
+- Heavy winter parka (layers are better).
+- Suit / formal wear.
+- Hair dryer (hotels have good ones).

@@ -44,18 +44,16 @@
 
 ## Accommodations
 
-| Night(s) | Location | Stay | Who |
-|----------|----------|------|-----|
-| Mar 20 | Tokyo (Akasaka) | APA Hotel Akasaka-Mitsuke (Conf: 260310022480) | Andrew & Megan |
-| Mar 21-23 | Tokyo (Shinjuku) | 17-16 Minamimotomachi Airbnb (Conf: HMPS9DSHZK) | Everyone except Ryan |
-| Mar 21-23 | Tokyo (Akasaka) | Hotel Risveglio Akasaka (Conf: 3285192339) | Ryan |
-| Mar 24 | Fuji | 1910-1 Nagahama (Conf: HMY5RRK3J9) | Everyone |
-| Mar 25-26 | Kyoto | Genji Kyoto | Andrew & Megan |
-| Mar 25-26 | Kyoto | Shimogyo Ward, Higashichō 260-4 (Conf: HMCTSTCZT4) | Cole, Dagen, Mason, Jasmin |
-| Mar 25-26 | Kyoto | Rihga Royal Hotel Kyoto (Conf: 73390707369876) | Ryan |
-| Mar 27 | Hiroshima | FAV HOTEL Hiroshima Heiwaodori (Conf: T0E450B26749E) | Everyone except Ryan |
-| Mar 27 | Hiroshima | Oriental Hotel Hiroshima (Conf: 1658110030264807) | Ryan |
-| Mar 28 | Osaka | KOKO HOTEL Osaka Namba Sennichimae (Conf: 6610207902) | Everyone |
+*See **Confirmations.md** for confirmation numbers and PDF references.*
+
+| Night(s) | Location | Stay |
+|----------|----------|------|
+| Mar 20 | Tokyo (Akasaka) | APA Hotel Akasaka-Mitsuke (Conf: 260310022480) |
+| Mar 21-24 | Tokyo | Booking.com (see Confirmations.md) |
+| Mar 24-25 | Fuji | 1910-1 Nagahama (no confirmation on file; assumed) |
+| Mar 25-27 | Kyoto | Genji Kyoto (Conf: RZQAC4116624) — Andrew & Megan; others see Confirmations.md |
+| Mar 27-28 | Hiroshima | FAV HOTEL Hiroshima Heiwaodori |
+| Mar 28-29 | Osaka | KOKO HOTEL Osaka Namba Sennichimae |
 
 ---
 
@@ -63,9 +61,9 @@
 
 | Day | Restaurant | Time | Party | Notes |
 |-----|------------|------|-------|-------|
-| **Sun Mar 22** | Sushi Hana (鮨華) | 6:30 PM | Everyone except Ryan (6) | Omakase, ¥13,000/person, Conf: H72M6AXFSP |
+| **Sat Mar 21** | Sushi Hana (鮨華) | 6:30 PM | Everyone except Ryan (6) | Omakase, ¥13,000/person (+10% service), Conf: H72M6AXFSP |
 | **Mon Mar 23** | WAKANUI GRILL DINING BAR TOKYO | 7:00 PM | Everyone (7) | Steakhouse, Tokyo Tower views, Conf: ZEG3JS |
-| **Thu Mar 26** | Hassun (Gion) | 6:00 PM | Andrew & Megan (2) | Kaiseki. Smart casual, no cologne. |
+| **Thu Mar 26** | Hassun (Gion) | 6:00 PM | Andrew & Megan (2) | Kaiseki, ¥27,500/person, Conf: VECRZDT2Q8. Smart casual, no cologne. |
 
 ---
 
@@ -73,10 +71,10 @@
 
 | # | What | Where | When | Who |
 |---|------|-------|------|-----|
-| 1 | Floral Workshop (Nicolai Bergmann) | Tokyo (Omotesando) | Sat Mar 21, 2:30 PM | Andrew & Megan |
+| 1 | Floral Workshop (Nicolai Bergmann) | Tokyo (Omotesando) | Sat Mar 21, 2:30 PM | Andrew & Megan (conf: *Reservations / March 21 230PM \| nicolaibergmann.pdf*) |
 | 2 | Cyberpunk Night Out (Kabukicho Tower) | Tokyo (Shinjuku) | Sun Mar 22, Evening | — |
 | 3 | Woodworking Pilgrimage (Inoue Hamono) | Tokyo (Sumida City) | Mon Mar 23, ~10 AM | Andrew & Megan |
-| 4 | Hassun (Gion) | Kyoto (Gion) | Thu Mar 26, 6 PM | Andrew & Megan |
+| 4 | Hassun (Gion) | Kyoto (Gion) | Thu Mar 26, 6 PM | Andrew & Megan (Conf: VECRZDT2Q8) |
 | 5 | Okonomimura "Food Theme Park" | Hiroshima | Fri Mar 27, Dinner | — |
 
 - **Check-in Katakana (Floral Workshop):** メーガン (Me-gan) / スコット (Su-kotto)

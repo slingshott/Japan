@@ -17,11 +17,14 @@
 - **7:00 AM:** Andrew & Megan: Check out of Akasaka hotel, leave bags with front desk. Grab coffee and explore.
 - **1:00 PM:** Andrew & Megan: Transit to Omotesando.
 - **2:15 PM:** Arrive at Nicolai Bergmann Flagship Store. Coffee at Nomad Cafe.
-- **2:30 PM – 4:30 PM:** The Floral Workshop (Andrew & Megan)
+- **2:30 PM – 4:30 PM:** The Floral Workshop (Andrew & Megan). Conf: *Reservations / March 21 230PM \| nicolaibergmann.pdf*
 
 **Check-in Names:** メーガン (Me-gan) / スコット (Su-kotto)
 
-- **Late afternoon:** Everyone regroups. Grab bags from Akasaka. Check into Airbnb: 17-16 Minamimotomachi (Shinjuku).
+- **Late afternoon:** Everyone regroups. Grab bags from Akasaka. Check into Tokyo accommodation (Booking.com confirmation).
+- **6:30 PM:** Sushi Hana (鮨華) — Omakase Dinner (Reservation)
+  - **Who:** Everyone except Ryan (6 people).
+  - **Price:** ¥13,000/person (+ 10% service). **Conf:** H72M6AXFSP
 
 ---
 
@@ -30,10 +33,6 @@
 - **Morning (early):** Tsukiji Outer Market — Sushi Breakfast.
 - **Daytime:** teamLab Borderless (Azabudai Hills) or Artizon Museum.
 - **Optional:** Yomiuri Giants vs. Tohoku Golden Eagles Spring Training at Tokyo Dome.
-- **6:30 PM:** Sushi Hana (鮨華) — Omakase Dinner (Reservation)
-  - **Who:** Everyone except Ryan (6 people).
-  - **Price:** ¥13,000/person.
-  - **Conf:** H72M6AXFSP
 - **Night:** The "Cyberpunk" Night Out (Must-Do)
   - **Where:** Tokyu Kabukicho Tower (Shinjuku).
   - **Action:** Drinks at Kabuki-Yokocho (Level 2), then Namco Tokyo arcade (Level 3).
@@ -62,7 +61,7 @@
 
 - **Morning:** Check out of Airbnb.
 - **1:30 PM – 3:53 PM:** Train from Shinjuku to Fujikawaguchiko.
-- **Stay:** Check into rental house: 1910-1 Nagahama (Conf: HMY5RRK3J9).
+- **Stay:** Check into rental house: 1910-1 Nagahama (no confirmation on file; assumed).
 - **Action:** Relax, enjoy Mt. Fuji views, Onsen, Laundry.
 
 ---
@@ -72,10 +71,7 @@
 - **Morning:** Check out of Fuji rental.
 - **9:55 AM:** Train: Fujikawaguchiko → Mishima (arrive 11:35 AM).
 - **11:55 AM:** Shinkansen: Mishima → Kyoto (arrive 2:34 PM).
-- **Stay:** Check into hotels.
-  - Andrew & Megan: Genji Kyoto
-  - Cole, Dagen, Mason, Jasmin: Shimogyo Ward, Higashichō 260-4
-  - Ryan: Rihga Royal Hotel Kyoto
+- **Stay:** Check into hotels. Andrew & Megan: Genji Kyoto (Conf: RZQAC4116624). Others: see Confirmations.md.
 - **Evening:** Explore Gion district.
 
 ---
@@ -86,7 +82,7 @@
 - **Lunch:** Nishiki Market.
 - **Afternoon:** Nijo Castle.
 - **6:00 PM:** Hassun (Gion) — Kaiseki Dinner (Must-Do)
-  - **Who:** Andrew & Megan only.
+  - **Who:** Andrew & Megan only. **Conf:** VECRZDT2Q8. ¥27,500/person.
   - **Rule:** Smart casual. No cologne. Be on time.
 - **Night:** Bee's Knees (Cocktail Lounge).
 
@@ -102,14 +98,14 @@
 - **Dinner:** The "Food Theme Park" (Must-Do)
   - **Where:** Okonomimura (Hiroshima).
   - **Action:** 3rd floor. Pick a loud stall. Order "Hiroshima Style."
-- **Stay:** Check into FAV HOTEL Hiroshima Heiwaodori. Ryan: Oriental Hotel Hiroshima.
+- **Stay:** Check into FAV HOTEL Hiroshima Heiwaodori (see Confirmations.md).
 
 ---
 
 ## Saturday, March 28 (Hiroshima to Osaka)
 
 - **Morning (9:07 AM):** Train from Hiroshima to Osaka.
-- **Stay:** Check into KOKO HOTEL Osaka Namba Sennichimae.
+- **Stay:** Check into KOKO HOTEL Osaka Namba Sennichimae (see Confirmations.md).
 - **Daytime:** Osaka Aquarium Kaiyukan and/or Umeda Sky Building.
 - **Evening:** Dotonbori (Neon entertainment district).
 

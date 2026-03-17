@@ -9,6 +9,7 @@
 - **When:** Saturday, March 21 @ 2:30 PM – 4:30 PM.
 - **Where:** Nicolai Bergmann Flagship Store (Omotesando).
 - **Who:** Andrew & Megan.
+- **Confirmation:** See *Reservations / March 21 230PM \| nicolaibergmann.pdf* (and Confirmations.md).
 - **The Move:** Arrive 15 minutes early. Grab a coffee at the Nomad Cafe downstairs.
 
 **Katakana for Check-in:**
@@ -20,7 +21,7 @@
 
 ## 2. The "Cyberpunk" Night Out (Tokyo)
 
-- **When:** Sunday, March 22 (After Sushi Hana dinner, before Golden-Gai).
+- **When:** Sunday, March 22 (evening, before Golden-Gai).
 - **Where:** Tokyu Kabukicho Tower (Shinjuku).
 - **The Move:** Drinks at Kabuki-Yokocho (Level 2) → Games at Namco Tokyo (Level 3).
 
@@ -38,7 +39,7 @@
 ## 4. Hassun (Kyoto)
 
 - **When:** Thursday, March 26 @ 6:00 PM.
-- **Where:** Hassun (Gion). Kaiseki.
+- **Where:** Hassun (Gion). Kaiseki. **Conf:** VECRZDT2Q8. ¥27,500/person.
 - **Who:** Andrew & Megan only.
 - **The Move:** Smart casual. No cologne. Be on time.
 

@@ -1,0 +1,360 @@
+Return-path: <notajscott@gmail.com>
+Original-recipient: rfc822;hello@ajscott.com
+Received: from p00-icloudmta-smtpin-us-central-1n-60-percent-22 by p60-mailgateway-smtp-6b4889cf97-ltvkq (mailgateway 2606B152)
+	with SMTP id 5fb9c2b5-8bfa-440d-baca-59cb0347fc72 
+	for <hello@ajscott.com>; Mon, 9 Mar 2026 13:32:19 GMT
+X-Apple-MoveToFolder: INBOX 
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 5fb9c2b5-8bfa-440d-baca-59cb0347fc72
+Received: from mail-ej1-f45.google.com (mail-ej1-f45.google.com [209.85.218.45])
+	by p00-icloudmta-smtpin-us-central-1n-60-percent-22 (Postfix) with ESMTPS id B4841C0011F
+	for <hello@ajscott.com>; Mon,  9 Mar 2026 13:32:15 +0000 (UTC)
+X-ICL-Info: GAtbRVYDBVFFSlVFSgQFUVUKE0oWX1gHVQoPB0UCBltbQVNZSgEOTEFMRhIcDVgNARgMBBtfQhY1HgsWEVwYARoURhEcDVEPFBAKWRtfW0IHGlsfHVxaDTUYDAQbX0IWWxoJGlhYUw4aRAsWEVwbBx9ISxFMBRgFGhYBGx0eVQ0YWRYDCg1bAxwVSxISARsEQUxIEBdfUQ4QVwUYFRBSBkgeCxYRXBgBGhRGGhFUC142OC4SNHZAFyZSUEEWDWMYAy8QAk1RXilFGyElGmJpVicpDx4THVIBAxILNkxyRgMGOxE3FVFfDlseCxYRXBgBGhRY
+X-ICL-Score: 2.33303322433
+Authentication-Results: bimi.icloud.com; bimi=skipped reason="insufficient dmarc"
+X-ARC-Info: policy=fail; arc=pass; id=mx.google.com; r1=-22; r2=1
+Authentication-Results: arc.icloud.com; arc=pass
+Authentication-Results: dmarc.icloud.com; dmarc=pass header.from=gmail.com
+X-DMARC-Policy: v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com
+X-DMARC-Info: pass=pass; dmarc-policy=none; s=r1; d=r1; pdomain=gmail.com
+Authentication-Results: dkim-verifier.icloud.com; dkim=pass header.d=gmail.com header.i=@gmail.com header.b=dEMmJUEg
+Received-SPF: pass (spf.icloud.com: domain of notajscott@gmail.com designates 209.85.218.45 as permitted sender) receiver=spf.icloud.com; client-ip=209.85.218.45; helo=mail-ej1-f45.google.com; envelope-from=notajscott@gmail.com
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of notajscott@gmail.com designates 209.85.218.45 as permitted sender) smtp.mailfrom=notajscott@gmail.com
+Received: by mail-ej1-f45.google.com with SMTP id a640c23a62f3a-b96da7b2e2eso233339566b.2
+        for <hello@ajscott.com>; Mon, 09 Mar 2026 06:32:14 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1773063133; cv=none;
+        d=google.com; s=arc-20240605;
+        b=kPcsrptxBMb/RJKJP1CADOUBT282ynsgfNqXE1Y5TAm4pYA+0lf+8moAZR9mmlHZzG
+         Nf1uLj9xc7ql3wzJI3pijV94uOpwWfqKtaFExHFZgzSeU7vZoyKbIo/2ZCxe/eEt1JFn
+         YRI+TmbNHwRaZWtlb4BN5RunI+P9ptydUIDYK4ky8oCltgua7g5LuoVbd9bZJLdiJS67
+         gjAO8J7t7zLnXDOoYE8qVwzVDS2lfA0Wknp6zfxwp4xBJAUa1n82FE5w2IULzjzmImVz
+         BJy4Snr/JXuNi5WWzalYN+isQEN0xZMog4FUpXe/S+oPXbGB+6ptMEOxGcF/6w3nSSmn
+         m2yA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=+5hIuRnO/pVrVpp9H92nRar9UKQftgzhBrxmH+++hAU=;
+        fh=5ehpzGHCwvkPvVPljGymUeDeZIUlTqCrDLhRok1i89w=;
+        b=hYbE+8hs2obx56Xf3Sb1Eh6gKbsNuak04HHkQNJEdkLB/u/yodMFPYft8gESdedc7g
+         PMQMbdHmdVPgnT4l7vc4JZq7ND/6SuyONyDSpaQG2j2CBKpZdT2+xVWx0/lfqt67pz+R
+         F0ryFcgTKY3uFXSc0p2IKgvw6qiYLfvpRfRTI5C+TwWB+eRlB5yvyqqZNzwPIoF7JvYu
+         a2tCyRWTd16Tifgo2RzU2YOt5kdWHdp+cMcMqXE3ry8QRZ2ibbMaOTbaT6qxL/IPbEuy
+         7oZi2HlfPkYepfIudxE4QuDF8ilCBDTpvLvMRWyigTqPanwGtBrLL2mFSYT+zHm9V8YR
+         wiHA==;
+        darn=ajscott.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1773063133; x=1773667933; darn=ajscott.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=+5hIuRnO/pVrVpp9H92nRar9UKQftgzhBrxmH+++hAU=;
+        b=dEMmJUEgEWa+h4LW17uLwkh9OHmGQZjt68hb22OZgjI1gtlyZnMLVEHbBbYiEWJZ6a
+         7t0oNtMHKXLRxGn8cBIZ1EDrjg4sQtAI+q/6CcZs3UL6xqBO7T4dxFFL0wNAQ6la4Ouj
+         BE2U+XWtas6Lr7Jq8PH+FJHHT8cwkXKSVFIX/GRbHIkJxULlvWh6vkzM60O8PNoI52WN
+         RUwZTi/qZa99YUkdd6Tpi3c/fIM5bC1gV+hXN8ew6xjT5FTXGpoBNnSgggclvr7V0Wkm
+         Ok+n6ZfxQWo3yGon4OhvYMICww80/0z7+yaKbLu4dLmI5xtix3M6lxbgVHpMOXXTQwMO
+         35Ug==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1773063133; x=1773667933;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=+5hIuRnO/pVrVpp9H92nRar9UKQftgzhBrxmH+++hAU=;
+        b=cTHi/3CN2PUi9PkdEzyGAMJz6Dv1U9iFMGiLwea9g+jJBunD6qIn1/ouE7NwhjsmZf
+         umXK86p0HvITgSK00ZqTN/L9ZunlJrECs+T0f/M0QbZlZIj73fcuVQ26d5UKE9SEB/eX
+         6m0pLumng+cFckOzvV3lnwdjLeVYkeUqoGNzhSJ65b3/9HZ6TrVx+sws1mmC3WJQp0Z9
+         LIVZOkvGc9esPTGnhedx10UsH27y4g1N8R7U8sk9yMDuEckSiqKeyRR2bh6xYe//wt20
+         KAwsYIRv8vA8xcOOER988AQznU4QqrKJggNJLFMWe54696PRjVtg4jNkC1qiFKYkoQ/6
+         VVUA==
+X-Gm-Message-State: AOJu0YxeDkFjL96hYW4LnLyru82pneEcUlBg4+wgpKtO4qFn8rRctugZ
+	gm/ngQK8VmB2Z1ukkQmoyR4cVRt02TDQL2Jm8Bcdnw4MVzecuRONTMXUOWo9gkqVKeniMPgGx8B
+	Ge03zWKDe1w7VNtrFCiiyfa5sPYSFlBoTqQ==
+X-Gm-Gg: ATEYQzxnFjx6zC0/mba6pM7qLccua9pHLcP8l33YAI7zsyPwsTO0CUfHgiNWKtfqDmc
+	dtfAEdcfJ83EebROcasNPwyIKZ5qxJU80jv3UxX55gHsbGiBDnuAcsJiYv3yW9ywSuSL7q8fmeB
+	cOfUm3YHW1lWn91M0PF4D2wLcPoCZR66BoXJA9wb5FwqlsHUk2BAPBW2KOagCFrrq4sUNSm3AJd
+	+bcaTgmDdRgD/dktO3We0XKCoTsQoMdFj2QsSefjDXadALgaGUN8aCUlPKHJm6YgfS9cKG1WV/h
+	ZyEDnBTyWn6OmD0QwuXAMj2Nkv0X7BM9UodI52LqPgU7w+68uykO
+X-Received: by 2002:a17:907:c13:b0:b90:ba21:62c2 with SMTP id
+ a640c23a62f3a-b942e05d7a8mr656007466b.61.1773063132302; Mon, 09 Mar 2026
+ 06:32:12 -0700 (PDT)
+MIME-Version: 1.0
+References: <69aeb8cd6cc4a_258ded147304027c2@tb-yyk-mwk802.k-prd.in.mail>
+In-Reply-To: <69aeb8cd6cc4a_258ded147304027c2@tb-yyk-mwk802.k-prd.in.mail>
+From: Andrew <notajscott@gmail.com>
+Date: Mon, 9 Mar 2026 08:32:00 -0500
+X-Gm-Features: AaiRm51EufIkHJvmbPlsJ8tS8BQEFvYsyayC9USgC4hn-A0W_HLDc_rshTxfhSs
+Message-ID: <CAHeLFvuS+66n=UzvVvu5ahK0bGRbR_4RPiik-dcvkmA4BpasBw@mail.gmail.com>
+Subject: =?UTF-8?B?RndkOiBbUmVzZXJ2YXRpb24gQ29uZmlybWVkXSAyMDI2LzAzLzI2KFRodSkgMTg6MDAoSg==?=
+	=?UTF-8?B?U1Qp772eIEhhc3N1bg==?=
+To: AJ Scott <hello@ajscott.com>
+Content-Type: multipart/alternative; boundary="0000000000002a579c064c976ef9"
+X-MANTSH: 1TFkXGxMbEQpZRBdpXAESAWh8Hh9fRxEKWU0XZEVETxEKX1kXHhsaEQpfTRdkRUR
+ PEQpZSRccGXEbBhsYHHcGHh0GGgYaBhsaGgYYGhpxGxoaEBp3BhoGGgYaBhoGGgYacRoQGncGG
+ hEKWV4XbGx5EQpDThd4eXNEZGcHf08YB19NT1xvfR9DRFgHeBNDHWQbe2VfRBEKWFwXGQQaBB8
+ eBRsaGgQSGAQeGAQYHBAbHhofGhEKXlkXTR9iaBIRCk1cFx4cHxEKTFoXaWtNaxEKTEYXbE1rE
+ QpDWhcYGhMEEh8EGBsSBB4fEQpCXhcbEQpCXBcbEQpeThcbEQpCSxdjU2NrexNYfhpfXhEKQkk
+ XY1Nja3sTWH4aX14RCkJFF2J9b2JMHkFkZF9LEQpCThdjU2NrexNYfhpfXhEKQkwXYkhOT0h6X
+ WNCEh4RCkJsF2tBXXAYX2QBU2tfEQpCQBdpZ0FffgFyAU8TeBEKQlgXa2FkG1xvZ0saQF0RClp
+ YFxwRCnBnF2dTW0tzREt6ex1LEBsYEQpwaBdsb0FpY2hyYm5GZRAaEQpwaBdpQmJbfh1/YkZJW
+ hAaEQpwaBdmTWRNcE4SHX19RBAaEQpwaBdtb2tcGWdwAVtcQxAaEQpwaBdgRl9tZE19fUxcUhA
+ aEQpwaBdhUxp8GmdyfRpGSxAaEQpwaBdjaV1Na0xSSBxjeBAaEQpwaBd6c09cUhxFcFJsQhAaE
+ QpwfxdsExhYR2JhWERBfxAHHREKcF8XYUxfTkVgaUcdH10QGRoRCnB9F2deZ0IbQ21pe0dcEBo
+ RCnBfF2xvfVJnHmloGW16EBkaEQpwfRdvZURHXm1OTWNOWxAZGhEKcH8Xb0RhUBITfxscEn4QB
+ xsaGhEKcF8XbkBZQURbbFsFW2EQBxweEQpwfRdleh0ZXVN5fGVrQxAaEQpwfRdnXmdCG0NtaXt
+ HXBAaEQpwXxdvaVhBGVMdbWVTQRAZGhEKcH0XbllpTxxwYFJ5QGIQGRoRCnBfF2FIQhwaWxpoU
+ mNiEBkaEQpwfRdlbVlaU11hWGxacBAZGhEKcH0XZ15nQhtDbWl7R1wQGhEKcH0Xb2VER15tTk1
+ jTlsQGRoRCnB9F2BHaFtYaUkSbUxwEBoRCnB9F2deZ0IbQ21pe0dcEBoRCnB9F25ZaU8ccGBSe
+ UBiEBkaEQpwfRdlbVlaU11hWGxacBAZGhEKcGwXa1xSSXh6QRpaXHMQBxMEHREKcEwXZExZSHN
+ SEm5ocBkQGhEKbX4XGhEKWE0XSxE=
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjYwMzA5MDEyMyBTYWx0ZWRfX/00NugT4ls+W
+ KCmDR68iWqd8TbbZHvGAuNmNWHWrEkLLuPwmaumo/M9qx/BYMje/MyNscfe67019FooX7lS4ld4
+ 4mz1Q8Ik5oeS9Uj4FrXwq8S/XMZDCUansRkW678FkxCk25voTaAiFYSnPHVDmKWO64kBcV9ig2t
+ 7RRX0jvGiNnpjJFL+zYcB0xCG9k4r9pUL4ABX62MVjDWxKcVe7uvB8Z18dOgVho7qYaVVVfwCIV
+ eAyeIeqKIjLXvWT8j7aqH306IBCSrCkvQ/toyTsey7FfdANv/mDk7IpE60v/EsdNU5nya4GAYfs
+ 2MF0RREPFGnF1OjTjLJ
+X-Proofpoint-GUID: RSYnNM-Ue2-ugevEW5inr-R9i7N1QOun
+X-Proofpoint-ORIG-GUID: RSYnNM-Ue2-ugevEW5inr-R9i7N1QOun
+X-JNJ: AAAAAAAB76xd/0lAunsnplgkyAjmMIkDvQYgk6TuVUUGK4A95p/6RIam5NYb2cLU7jTZ1+m+k9hBd6fou1o0lX7IbHIZ5+V6XaCykLbptT3cZ/AdayHD+PsM1bsXSVV6Pe6YIv65TWMIF5g4jHQqrdsR2B4VPVfN0k9i2XEZGFmXGNgoBQax/7/yoV+6sHvvRVk/NiG+c7RZ6185NQTgrwXTCLlk7k0KtpMzyIPwELiHxKDv2iymyu77NtfwDKS+0xFwc05HAKNfhlDa3R1BR2IMUNL6IzXTZsgQEym8eWUkpiJbynfWWvaj30mk293fCmhCLLjxmvtvC60TWY8LT7Cu94LhgLrqzABau/l4W+fxd7WN/qxPJISdSxg45oJb12AEJaVIUUmaz1nqtyMRKinsirICCPz5NG7NBE+WwpdQ1CH57pyl68jw+Owmkop7gqTNQUuo83bdEoNzUWj/Ioq4ASURbPRDtWXbdHAIID8XMoiI8Gi7sOhAM2cE0+hRCNQX7plBQsHTtAa8R1QfYc/LfA9hECZUhX67/nLpUddYFRhwJVM/KvG4M9FPTJ1Jts2iJ6xGsjoUhZAnZfMXpkFjIEXeW+qsmSgpYseoRmw/EQo6f6oFjESpQlU1n1g9LFzRB9fDRWa+zoaJ0SHegqZGn0zKa8FC4kKeQPbp7nSqaPQbQ6L/WhpQJrA1xCs7tMLekUYj0kNBRg1eQy2kLNz+QsUq7hjh2sOR04rDiK8BCf44IEVRwguFBtx650W1solFqIQxcnUS6I2OeDM9w9JXZ3qHCWlVxJYNnXop9OXuQAQW+4tHIKJRn0lmB2uHl93K+QVe0IWYu9uR8X9AyE0RJtnr09n5iA9vFToJKSeOL1sme5oy9HxWUw==
+
+--0000000000002a579c064c976ef9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*AJ Scott*
+*(480) 280-5726*
+
+
+---------- Forwarded message ---------
+From: Tabelog Reservation Service <noreply@tabelog.com>
+Date: Mon, Mar 9, 2026 at 7:10=E2=80=AFAM
+Subject: [Reservation Confirmed] 2026/03/26(Thu) 18:00(JST)=EF=BD=9E Hassun
+To: <notajscott@gmail.com>
+
+
+----------------------------------------
+Tabelog Restaurant Reservation: Reservation confirmation email
+----------------------------------------
+Thank you for using the Tabelog Reservation Service.
+We have accepted your restaurant reservation as follows.
+Please note: food and drink orders/reservations are not prepaid. Please pay
+at the restaurant on the day of your visit.
+
+- Reservation number
+  VECRZDT2Q8
+- Restaurant
+  Hassun
+  https://tabelog.com/en/kyoto/A2601/A260301/26002259/dtlmap/
+  *Restaurant address and map can be accessed by following the link above.
+- Number of guests
+  2
+- Date and time
+  2026/03/26(Thu) 18:00(JST)
+- Time limit for restaurant stay
+  2 hours 30 min.
+- Plan name
+  Omakase Kaiseki (Dinner)
+- Price
+  JPY27,500 per person(tax included)
+  *Please pay for the plan at the restaurant on the day of your reservation=
+.
+- Payment at time of booking
+  System usage fee=EF=BC=9AJPY880(tax included)
+  *The credit card information entered at the time of reservation will be
+used to settle the system usage fee and to charge a cancellation fee in
+case the reservation violates the cancellation policy. Please refer to the
+FAQ for details.
+  https://tabelog.com/en/help/#a04/
+- Seat
+  Not specified
+- Request
+
+----------------------------------------
+- Notes
+  Reservations can be made online until t
+  he day before.
+
+- Cancellation policy
+  Cancellation will incur a fee, as shown below.
+  On the day, without notification: 100% of the price of plan
+  On the day, with notification: 100% of the price of plan
+  Cancellation on the day before: 50% of the price of plan
+
+----------------------------------------
+- Address
+  =E4=BA=AC=E9=83=BD=E5=BA=9C=E4=BA=AC=E9=83=BD=E5=B8=82=E6=9D=B1=E5=B1=B1=
+=E5=8C=BA=E7=A5=87=E5=9C=92=E6=9C=AB=E5=90=89=E7=94=BA95
+<https://www.google.com/maps/search/%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9=
+%83%BD%E5%B8%82%E6%9D%B1%E5%B1%B1%E5%8C%BA%E7%A5%87%E5%9C%92%E6%9C%AB%E5%90=
+%89%E7%94%BA95?entry=3Dgmail&source=3Dg>
+- Phone number
+  075-561-3984
+- Map
+  https://tabelog.com/en/kyoto/A2601/A260301/26002259/dtlmap/
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+- Check, modify, or cancel the reservation by accessing the link below.
+
+https://yoyaku.tabelog.com/yoyaku/en/tabelog_booking/send_remind/?escape=3D=
+false
+
+*You may be unable to modify or cancel your reservation on Tabelog if you
+miss the time allowed to modify or cancel your reservation time or the
+restaurant's designated timeframe.
+  Please call the restaurant directly in such circumstances.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+*You will receive a confirmation email one week before and one day before
+your reservation.
+
+Thank you for using our service.
+We look forward to serving you again.
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+The restaurant manages online reservations. Please contact them directly
+with any reservation-related inquiries, as described below.
+- Questions about reservations (e.g., more information about cancellation
+fee)
+- Requests relating to plans and seating
+- Modify or cancel a reservation (unable to do so on Tabelog)
+- A personal request (e.g., a special dish for a birthday)
+----------------------------------------
+*A system fee of JPY 440 per person is required to use the Tabelog online
+reservation system. The system usage fee is generally non-refundable.
+However, if a restaurant cancels a reservation due to unforeseen
+circumstances, the system usage fee will be refunded.
+
+Please contact us for Tabelog reservation service inquiries via the link
+below.
+https://tabelog.com/en/support/inquiry/
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+*This is an automated email*
+*Please do not reply to it because the mailbox is unattended*
+
+--0000000000002a579c064c976ef9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><br clear=3D"all"><br clear=3D"all"><div><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div=
+ dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><b>AJ Scott</b><div><b>(480)=
+ 280-5726</b><br></div></div></div></div></div></div></div></div></div><div=
+><br></div><div><br><div class=3D"gmail_quote gmail_quote_container"><div d=
+ir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message ---------<br>F=
+rom: <strong class=3D"gmail_sendername" dir=3D"auto">Tabelog Reservation Se=
+rvice</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:noreply@tabelog.com=
+">noreply@tabelog.com</a>&gt;</span><br>Date: Mon, Mar 9, 2026 at 7:10=E2=
+=80=AFAM<br>Subject: [Reservation Confirmed] 2026/03/26(Thu) 18:00(JST)=EF=
+=BD=9E Hassun<br>To:  &lt;<a href=3D"mailto:notajscott@gmail.com">notajscot=
+t@gmail.com</a>&gt;<br></div><br><br>--------------------------------------=
+--<br>
+Tabelog Restaurant Reservation: Reservation confirmation email<br>
+----------------------------------------<br>
+Thank you for using the Tabelog Reservation Service.<br>
+We have accepted your restaurant reservation as follows.<br>
+Please note: food and drink orders/reservations are not prepaid. Please pay=
+ at the restaurant on the day of your visit.<br>
+<br>
+- Reservation number<br>
+=C2=A0 VECRZDT2Q8<br>
+- Restaurant<br>
+=C2=A0 Hassun<br>
+=C2=A0 <a href=3D"https://tabelog.com/en/kyoto/A2601/A260301/26002259/dtlma=
+p/" rel=3D"noreferrer" target=3D"_blank">https://tabelog.com/en/kyoto/A2601=
+/A260301/26002259/dtlmap/</a><br>
+=C2=A0 *Restaurant address and map can be accessed by following the link ab=
+ove.<br>
+- Number of guests<br>
+=C2=A0 2 <br>
+- Date and time<br>
+=C2=A0 2026/03/26(Thu) 18:00(JST)<br>
+- Time limit for restaurant stay<br>
+=C2=A0 2 hours 30 min.<br>
+- Plan name<br>
+=C2=A0 Omakase Kaiseki (Dinner)<br>
+- Price<br>
+=C2=A0 JPY27,500 per person(tax included)<br>
+=C2=A0 *Please pay for the plan at the restaurant on the day of your reserv=
+ation.<br>
+- Payment at time of booking<br>
+=C2=A0 System usage fee=EF=BC=9AJPY880(tax included)<br>
+=C2=A0 *The credit card information entered at the time of reservation will=
+ be used to settle the system usage fee and to charge a cancellation fee in=
+ case the reservation violates the cancellation policy. Please refer to the=
+ FAQ for details.<br>
+=C2=A0 <a href=3D"https://tabelog.com/en/help/#a04/" rel=3D"noreferrer" tar=
+get=3D"_blank">https://tabelog.com/en/help/#a04/</a><br>
+- Seat<br>
+=C2=A0 Not specified<br>
+- Request<br>
+<br>
+----------------------------------------<br>
+- Notes<br>
+=C2=A0 Reservations can be made online until t<br>
+=C2=A0 he day before.<br>
+<br>
+- Cancellation policy<br>
+=C2=A0 Cancellation will incur a fee, as shown below.<br>
+=C2=A0 On the day, without notification: 100% of the price of plan<br>
+=C2=A0 On the day, with notification: 100% of the price of plan<br>
+=C2=A0 Cancellation on the day before: 50% of the price of plan<br>
+<br>
+----------------------------------------<br>
+- Address<br>
+=C2=A0 <a href=3D"https://www.google.com/maps/search/%E4%BA%AC%E9%83%BD%E5%=
+BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E6%9D%B1%E5%B1%B1%E5%8C%BA%E7%A5%87%E5%9C%=
+92%E6%9C%AB%E5%90%89%E7%94%BA95?entry=3Dgmail&amp;source=3Dg">=E4=BA=AC=E9=
+=83=BD=E5=BA=9C=E4=BA=AC=E9=83=BD=E5=B8=82=E6=9D=B1=E5=B1=B1=E5=8C=BA=E7=A5=
+=87=E5=9C=92=E6=9C=AB=E5=90=89=E7=94=BA95</a><br>
+- Phone number<br>
+=C2=A0 075-561-3984<br>
+- Map<br>
+=C2=A0 <a href=3D"https://tabelog.com/en/kyoto/A2601/A260301/26002259/dtlma=
+p/" rel=3D"noreferrer" target=3D"_blank">https://tabelog.com/en/kyoto/A2601=
+/A260301/26002259/dtlmap/</a><br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+<br>
+<br>
+- Check, modify, or cancel the reservation by accessing the link below.<br>
+=C2=A0 <a href=3D"https://yoyaku.tabelog.com/yoyaku/en/tabelog_booking/send=
+_remind/?escape=3Dfalse" rel=3D"noreferrer" target=3D"_blank">https://yoyak=
+u.tabelog.com/yoyaku/en/tabelog_booking/send_remind/?escape=3Dfalse</a><br>
+<br>
+*You may be unable to modify or cancel your reservation on Tabelog if you m=
+iss the time allowed to modify or cancel your reservation time or the resta=
+urant&#39;s designated timeframe.<br>
+=C2=A0 Please call the restaurant directly in such circumstances.<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+<br>
+<br>
+*You will receive a confirmation email one week before and one day before y=
+our reservation.<br>
+<br>
+Thank you for using our service.<br>
+We look forward to serving you again.<br>
+<br>
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+<br>
+The restaurant manages online reservations. Please contact them directly wi=
+th any reservation-related inquiries, as described below.<br>
+- Questions about reservations (e.g., more information about cancellation f=
+ee)<br>
+- Requests relating to plans and seating<br>
+- Modify or cancel a reservation (unable to do so on Tabelog)<br>
+- A personal request (e.g., a special dish for a birthday)<br>
+----------------------------------------<br>
+*A system fee of JPY 440 per person is required to use the Tabelog online r=
+eservation system. The system usage fee is generally non-refundable. Howeve=
+r, if a restaurant cancels a reservation due to unforeseen circumstances, t=
+he system usage fee will be refunded.<br>
+<br>
+Please contact us for Tabelog reservation service inquiries via the link be=
+low.<br>
+<a href=3D"https://tabelog.com/en/support/inquiry/" rel=3D"noreferrer" targ=
+et=3D"_blank">https://tabelog.com/en/support/inquiry/</a><br>
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+<br>
+<br>
+*This is an automated email*<br>
+*Please do not reply to it because the mailbox is unattended*<br>
+</div></div>
+
+--0000000000002a579c064c976ef9--
